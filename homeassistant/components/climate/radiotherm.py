@@ -15,7 +15,9 @@ from homeassistant.components.climate import (
 from homeassistant.const import CONF_HOST, TEMP_FAHRENHEIT, ATTR_TEMPERATURE
 import homeassistant.helpers.config_validation as cv
 
-REQUIREMENTS = ['radiotherm==1.2']
+REQUIREMENTS = [
+    'https://github.com/naren8642/radiotherm/archive/1.3.0'
+    '#radiotherm==1.3.0']
 
 _LOGGER = logging.getLogger(__name__)
 
